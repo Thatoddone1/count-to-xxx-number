@@ -1,7 +1,8 @@
-file_builder = open("numberslog.txt", "w+")
+
 
 whileloop=0
 while whileloop == 0:
+    file_builder = open("numberslog.txt", "w+")
     def count():
         whilecounting = 1
         while whatnum+1 > whilecounting:
