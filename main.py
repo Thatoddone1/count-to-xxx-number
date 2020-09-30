@@ -2,6 +2,7 @@
 
 whileloop=0
 while whileloop == 0:
+    input('Click Enter to reset and create files')
     file_builder = open("numberslog.txt", "w+")
     def count():
         whilecounting = 1
